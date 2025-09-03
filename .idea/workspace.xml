@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dcb667-c2ac-4019-a651-f25363caaf0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ems-backend/src/main/java/rifat/javagroup/ems_backend/service/impl/EmployeeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.EmsBackendApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
@@ -56,17 +60,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ems-backend" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ems-backend" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration name="EmsBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ems-backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rifat.javagroup.ems_backend.EmsBackendApplication" />
@@ -91,11 +84,23 @@
       <option name="presentableId" value="Default" />
       <updated>1756836105630</updated>
       <workItem from="1756836107611" duration="1327000" />
-      <workItem from="1756878739832" duration="10797000" />
+      <workItem from="1756878739832" duration="11178000" />
+      <workItem from="1756901781059" duration="3665000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
