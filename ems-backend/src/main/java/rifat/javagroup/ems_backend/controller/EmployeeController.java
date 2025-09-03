@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import rifat.javagroup.ems_backend.dto.EmployeeDTO;
 import rifat.javagroup.ems_backend.service.EmployeeService;
 
+import java.util.List;
+
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/employee")
@@ -26,6 +28,13 @@ public class EmployeeController {
     public ResponseEntity<EmployeeDTO> getEmployeeByID(@PathVariable("id") Long employeeId){
         EmployeeDTO employeeDTO = employeeService.getEmployee(employeeId);
         return ResponseEntity.ok(employeeDTO);
+    }
+
+    // Build All Get Employee REST API
+    @GetMapping
+    public ResponseEntity<List<EmployeeDTO>> getAllEmployees(){
+        List<EmployeeDTO> employees = employeeService.getAllEmployees();
+        return ResponseEntity.ok(employees);
     }
 
     // Build Update Employee REST API

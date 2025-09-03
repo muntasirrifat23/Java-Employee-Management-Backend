@@ -9,6 +9,9 @@ import rifat.javagroup.ems_backend.mapper.EmployeeMapper;
 import rifat.javagroup.ems_backend.repository.EmployeeRepository;
 import rifat.javagroup.ems_backend.service.EmployeeService;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 @AllArgsConstructor
 
@@ -55,5 +58,14 @@ public class EmployeeServiceImpl implements EmployeeService {
                 .orElseThrow(() -> new ResourceNotFoundException("Employee delete not found: " + employeeId));
 
         employeeRepository.delete(employee);
+    }
+
+    // Get All Employees
+    @Override
+    public List<EmployeeDTO> getAllEmployees() {
+        return employeeRepository.findAll()
+                .stream()
+                .map(EmployeeMapper::mapToEmployeeDTO)
+                .collect(Collectors.toList());
     }
 }
